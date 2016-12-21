@@ -9242,18 +9242,19 @@ th.hide-for-touch {
 
 /*=========== STORY INTRO 5 */
 
-.story-intro-1 {
+
+.story-intro-5 {
   height: 348px;
   border-bottom: 1px solid #E3E3E3;
 }
 /* line 73, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy {
+.story-intro-5 .story-intro-5__copy {
   height: 348px;
   background-color: #0000;
   padding: 90px 0;
 }
 /* line 78, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy .story-intro-1__copy--title {
+.story-intro-5 .story-intro-5__copy .story-intro-5__copy--title {
   font-family: "Sofia Pro";
   font-weight: 500;
   text-transform: uppercase;
@@ -9264,7 +9265,7 @@ th.hide-for-touch {
   margin-bottom: 12px;
 }
 /* line 89, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy .story-intro-1__copy--dek {
+.story-intro-5 .story-intro-5__copy .story-intro-5__copy--dek {
   float: left;
   font-weight: 500;
   letter-spacing: 1px;
@@ -9272,7 +9273,7 @@ th.hide-for-touch {
   line-height: 20px;
 }
 /* line 98, ../scss/app.scss */
-.story-intro-1 .story-intro-1__image {
+.story-intro-5 .story-intro-5__image {
   height: 348px;
   font-size: 1px;
   background-image: url("../assets/img__story-intro_05.jpg");
