@@ -105,50 +105,6 @@
 }
 
 
-//-----------------------------------------------
-// STORY INTRO 5
-//-----------------------------------------------
-
-.story-intro-5 {
-    height: 348px;
-    border-bottom: 1px solid $stroke-gray;
-    
-    .story-intro-5__copy {
-        height: 348px;
-        background-color: $black;
-        padding: 90px 0;
-        
-        .story-intro-5__copy--title {
-            font-family: "Sofia Pro";
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            font-size: 36px;
-            line-height: 42px;
-            color: $white;
-            margin-bottom: 12px;
-        }
-        
-        .story-intro-5__copy--dek {
-            float: left;
-            font-weight: 500;
-            letter-spacing: 1px;
-            color: $black-1;
-            line-height: 20px;e
-        }
-    }
-    
-    .story-intro-5__image {
-        height: 348px;
-        font-size: 1px;
-        background-image: url("../assets/img__story-intro_01.jpg");
-        background-size: cover;
-        background-position: center;
-    }
-}
-
-
-
 
 //-----------------------------------------------
 // PRODUCT GRID
