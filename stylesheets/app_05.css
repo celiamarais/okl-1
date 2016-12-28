@@ -9379,13 +9379,20 @@ th.hide-for-touch {
 /* line 73, ../scss/app.scss */
 .story-intro-1 {
   height: 348px;
-  background-color: #F6F6F6;
-  border-bottom: 1px solid #E3E3E3;
+  /*background-color: #F6F6F6;
+  border-bottom: 1px solid #E3E3E3;*/
 }
 /* line 78, ../scss/app.scss */
 .story-intro-1 .story-intro-1__copy {
   height: 348px;
   padding: 5% 0;
+
+    background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,0,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)); /*Standard*/
+    
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
   /* line 78, ../scss/app.scss */
@@ -9396,6 +9403,7 @@ th.hide-for-touch {
 /* line 85, ../scss/app.scss */
 .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
   padding: 6% 0;
+    color: #f6f6f6;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
   /* line 85, ../scss/app.scss */
@@ -9435,13 +9443,12 @@ th.hide-for-touch {
   }
 }
 /* line 118, ../scss/app.scss */
-.story-intro-1 .story-intro-1__img {
+.story-intro-1 {
   height: 348px;
-  background-image: url(../assets/img__story-intro.jpg);
+  background-image: url(../assets/img__story-intro_05.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: right center;
 }
-
 
 /* line 127, ../scss/app.scss */
 .story-intro-1__copy--accordion > a {

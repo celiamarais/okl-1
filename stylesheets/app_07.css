@@ -9374,6 +9374,7 @@ th.hide-for-touch {
     height: 102px;
     line-height: 102px;
   }
+
 }
 
 /* line 73, ../scss/app.scss */
@@ -9392,6 +9393,10 @@ th.hide-for-touch {
   .story-intro-1 .story-intro-1__copy {
     padding: 6% 0;
   }
+    
+      .story-intro-1 .story-intro-1__copy {
+    padding: 6% 0;
+  }
 }
 /* line 85, ../scss/app.scss */
 .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
@@ -9400,17 +9405,17 @@ th.hide-for-touch {
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
   /* line 85, ../scss/app.scss */
   .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
-    padding: 12% 0;
+    padding: 0 0;
   }
 }
 /* line 91, ../scss/app.scss */
 .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__title {
-  font-family: "Sofia Pro";
+  font-family:"FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 42px;
+  line-height: 42px;
   margin-bottom: 12px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 1.5px;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
@@ -9420,6 +9425,7 @@ th.hide-for-touch {
     line-height: 30px;
   }
 }
+
 /* line 105, ../scss/app.scss */
 .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__dek {
   font-family: "FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
@@ -9433,21 +9439,31 @@ th.hide-for-touch {
     font-size: 16px;
     line-height: 20px;
   }
+
+
 }
 /* line 118, ../scss/app.scss */
-.story-intro-1 .story-intro-1__img {
+.story-intro-1 {
   height: 348px;
-  background-image: url(../assets/img__story-intro.jpg);
+  background-image: url(../assets/img__story-intro_07.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: right center;
 }
+
+@media only screen and (min-width: 48.0625em) {
+.story-intro-1 {
+  background-position: left center;
+}
+
+}
+
 
 
 /* line 127, ../scss/app.scss */
 .story-intro-1__copy--accordion > a {
-  font-family: "Sofia Pro";
+  font-family:"FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 3px;
   color: #323232;
   text-align: center;

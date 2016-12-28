@@ -9435,13 +9435,12 @@ th.hide-for-touch {
   }
 }
 /* line 118, ../scss/app.scss */
-.story-intro-1 .story-intro-1__img {
+.story-intro-1 {
   height: 348px;
-  background-image: url(../assets/img__story-intro.jpg);
+  background-image: url(../assets/img__story-intro_06.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: right center;
 }
-
 
 /* line 127, ../scss/app.scss */
 .story-intro-1__copy--accordion > a {

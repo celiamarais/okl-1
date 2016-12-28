@@ -1,46 +1,61 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
-  </head>
-  <body>
-    <div class="global-nav">
-        <div class="small-12 columns">
-            Global Nav
-        </div>
-    </div>
-      
-    <div class="story-intro-5 small-12 columns">
-        <div class="story-intro-5__copy small-7 columns">
-            <div class="story-intro-5__copy--title large-10 columns">PORT 68</div>
-            <div class="story-intro-5__copy--dek large-10 columns">
-               <i>Inspired by ports around the world,</i> Port 68’s finely crafted furnishings combine globally sourced materials with decorator-worthy style. Full of color, texture, and pattern (including prints from the inimitable textiles house Scalamandré), the new pieces and best-sellers in this collection are sure to make a luxurious statement in your home.
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Foundation</title>
+        <link rel="stylesheet" href="stylesheets/app_05.css" />
+        <script src="bower_components/modernizr/modernizr.js"></script>
+    </head>
+    <body>
+      	
+<!-- GLOBAL NAV -->
+       	<div class="global-nav"> 
+            <div class="small-12 columns">
+                Global Nav
             </div>
         </div>
-        <div class="story-intro-5__image small-5 columns">
-            img
-        </div>
-    </div>
-      
-    <div class="row product-grid">
-        <div class="large-12 columns">
-            <ul class="small-block-grid-3">
-              <li><div></div></li>
-              <li><div></div></li>
-              <li><div></div></li>
-              <li><div></div></li>
-              <li><div></div></li>
-              <li><div></div></li>
+
+<!-- STORY INTRO -->
+		<div class="story-intro-1">
+			<div class="story-intro-1__copy show-for-large-up medium-4 columns">
+				<div class="story-intro-1__copy-container medium-10 medium-offset-1 large-9 large-offset-1 columns">
+					<div class="story-intro-1__title">Five Star Style</div>
+					<div class="story-intro-1__dek">Call it the suite of your dreams. Sumptuous bedding, polished accents, and boutique-hotel-style extras create an endlessly elegant setting for rest and relaxation—no check-in (or checkout) required.</div>
+				</div>
+			</div>
+			<div class=".story-intro-6__img  small-12 medium-8 columns"></div>
+		</div>
+		
+           
+	    <div class="row hide-for-large-up">
+            <ul class="accordion" data-accordion>
+              <li class="accordion-navigation story-intro-1__copy--accordion">
+                <a href="#panel1a">Five Star Style</a>
+                <div id="panel1a" class="content small-10 small-offset-1 columns">
+                  Call it the suite of your dreams. Sumptuous bedding, polished accents, and boutique-hotel-style extras create an endlessly elegant setting for rest and relaxation—no check-in (or checkout) required.
+                </div>
+              </li>
             </ul>
         </div>
-    </div>
+    
+<!-- GRID -->
+        <div class="row product-grid">
+            <div class="large-12 columns">
+                <ul class="xsmall-block-grid-2 small-block-grid-3">
+                  <li><div></div></li>
+                  <li><div></div></li>
+                  <li><div></div></li>
+                  <li><div></div></li>
+                  <li><div></div></li>
+                  <li><div></div></li>
+                </ul>
+            </div>
+        </div>
+        
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/foundation/js/foundation.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>
