@@ -9965,6 +9965,7 @@ th.hide-for-touch {
 
 /* line 118, ../scss/app.scss */
 .story-intro-2 {
+  height: 348px;
   background-image: url(../assets/img__story-intro_09.jpg);
   background-size: cover;
   background-position: center center;
@@ -9973,8 +9974,6 @@ th.hide-for-touch {
 @media only screen and (min-width: 48.0625em) {
 .story-intro-2 {
 height: 348px;
-}
-
 }
 
 
