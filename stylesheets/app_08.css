@@ -10039,9 +10039,9 @@ background-color: #fff;
 
 /* line 127, ../scss/app.scss */
 .story-intro-2__copy--accordion > a {
-  font-family:"FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
+   font-family: "Sofia Pro" !important;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: 3px;
   color: #323232;
   text-align: center;

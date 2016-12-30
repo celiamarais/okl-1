@@ -207,7 +207,7 @@ select {
   background: #FFFFFF;
   color: #323232;
   display: block;
-  font-family: "Proxima Nova", Helvetica, Roboto, Arial, sans-serif;
+/*  font-family: "Proxima Nova", Helvetica, Roboto, Arial, sans-serif;*/
   font-size: 1rem;
   padding: 0.75rem;
 }
@@ -9374,7 +9374,6 @@ th.hide-for-touch {
     height: 102px;
     line-height: 102px;
   }
-
 }
 
 /* line 73, ../scss/app.scss */
@@ -9387,17 +9386,15 @@ th.hide-for-touch {
 .story-intro-1 .story-intro-1__copy {
   height: 348px;
   padding: 5% 0;
- background-color: #fff;
-opacity: 0.8;
+        background-color: #fff;
+    opacity: 0.8;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
   /* line 78, ../scss/app.scss */
   .story-intro-1 .story-intro-1__copy {
-    padding: 6% 0;
-  }
-    
-      .story-intro-1 .story-intro-1__copy {
-    padding: 6% 0;
+    padding: 8% 0;
+          background-color: #fff;
+    opacity: 0.8;
   }
 }
 /* line 85, ../scss/app.scss */
@@ -9407,17 +9404,18 @@ opacity: 0.8;
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
   /* line 85, ../scss/app.scss */
   .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
-    padding: 0 0;
+    padding: 6% 0;
+      
   }
 }
 /* line 91, ../scss/app.scss */
 .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__title {
-  font-family:"FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: 500;
-  font-size: 42px;
-  line-height: 42px;
+  font-size: 36px;
+  line-height: 36px;
   margin-bottom: 12px;
-  text-transform: capitalize;
+/*  text-transform: uppercase;*/
   letter-spacing: 1.5px;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
@@ -9427,22 +9425,22 @@ opacity: 0.8;
     line-height: 30px;
   }
 }
-
 /* line 105, ../scss/app.scss */
 .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__dek {
   font-family: "FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 24px;
   color: #818386;
+    padding-right: 15%;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
   /* line 105, ../scss/app.scss */
   .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__dek {
     font-size: 16px;
     line-height: 20px;
+          padding-right: 0;
+
   }
-
-
 }
 /* line 118, ../scss/app.scss */
 .story-intro-1 {
@@ -9452,20 +9450,11 @@ opacity: 0.8;
   background-position: right center;
 }
 
-@media only screen and (min-width: 48.0625em) {
-.story-intro-1 {
-  background-position: left center;
-}
-
-}
-
-
-
 /* line 127, ../scss/app.scss */
 .story-intro-1__copy--accordion > a {
-  font-family:"FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: 500;
-  text-transform: capitalize;
+/*  text-transform: uppercase;*/
   letter-spacing: 3px;
   color: #323232;
   text-align: center;

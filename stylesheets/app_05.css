@@ -97,6 +97,7 @@ body {
 }
 
 /* line 515, ../scss/components/_global.scss */
+
 a:hover {
   cursor: pointer;
 }
@@ -9402,7 +9403,7 @@ th.hide-for-touch {
 }
 /* line 85, ../scss/app.scss */
 .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
-  padding: 6% 0;
+/*  padding: 6% 0;*/
     color: #f6f6f6;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
@@ -9433,7 +9434,6 @@ th.hide-for-touch {
   font-family: "FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 24px;
-  color: #818386;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
   /* line 105, ../scss/app.scss */
@@ -9446,8 +9446,10 @@ th.hide-for-touch {
 .story-intro-1 {
   height: 348px;
   background-image: url(../assets/img__story-intro_05.jpg);
-  background-size: cover;
+    background-color: #000;
+  /*background-size: cover;*/
   background-position: right center;
+    background-repeat: no-repeat;
 }
 
 /* line 127, ../scss/app.scss */

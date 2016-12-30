@@ -9918,6 +9918,7 @@ th.hide-for-touch {
   margin-bottom: 12px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
   /* line 77, ../scss/app.scss */
@@ -9932,6 +9933,8 @@ th.hide-for-touch {
   font-family: "FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 24px;
+  padding-left: 10px;
+    padding-right: 10px;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
   /* line 91, ../scss/app.scss */
@@ -9965,7 +9968,7 @@ th.hide-for-touch {
 
 /* line 118, ../scss/app.scss */
 .story-intro-2 {
-  height: 348px;
+  height: 262px;
   background-image: url(../assets/img__story-intro_09.jpg);
   background-size: cover;
   background-position: center center;
@@ -9994,6 +9997,8 @@ height: 348px;
 .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container {
   padding: 9% 2%; 
   text-align: center;
+    background-color: #fff;
+    opacity: 0.8;
 }
 @media only screen and (min-width: 30.0625em) {
   /* line 166, ../scss/app.scss */
@@ -10012,7 +10017,7 @@ height: 348px;
   font-size: 30px;
   line-height: 30px;
   letter-spacing: 1.5px;
-  color: #fff;
+   color: #323232;
   margin-bottom: 12px;
 }
 @media only screen and (min-width: 30.0625em) {
@@ -10026,7 +10031,7 @@ height: 348px;
 .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container .story-intro-2__dek {
   font-size: 18px;
   line-height: 24px;
-    color: #fff;
+     color: #323232;
 }
 @media only screen and (min-width: 30.0625em) {
   /* line 188, ../scss/app.scss */
@@ -10038,9 +10043,9 @@ height: 348px;
 
 /* line 127, ../scss/app.scss */
 .story-intro-2__copy--accordion > a {
-  font-family:"FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
+ font-family: "Sofia Pro" !important;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: 3px;
   color: #323232;
   text-align: center;
@@ -10054,7 +10059,6 @@ height: 348px;
   line-height: 24px;
   color: #818386;
 }
-
 
 
 /* line 245, ../scss/app.scss */
